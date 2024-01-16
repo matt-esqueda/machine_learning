@@ -26,13 +26,9 @@ sq.pl.co_occurrence(
 
 ### Neighborhood enrichment ###
 # compute a connectivity matrix and visualize the results
-sq.gr.co_occurrence(adata, cluster_key="cell type")
-sq.pl.co_occurrence(
-    adata,
-    cluster_key="cell type",
-    clusters=["basal CK tumor cell", "T cells"],
-    figsize=(15, 4),
-)
+sq.gr.spatial_neighbors(adata)
+sq.gr.nhood_enrichment(adata, cluster_key="cell type")
+sq.pl.nhood_enrichment(adata, cluster_key="cell type")
 
 
 ### Interaction matrix and network centralities ###
