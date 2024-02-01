@@ -3,6 +3,7 @@
 Machine learning algorithms implemented in Python with scikit-learn. 
 
 To do:
+- add deep learning models
 - add R models 
 
 
