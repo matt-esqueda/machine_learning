@@ -7,6 +7,10 @@ To do:
 - add R models 
 
 
+GitHub sometimes has trouble rendering html representations in jupyter notebooks. 
+
+Loading the URL in nbviewer.org will properly render everything
+
 ### Citations
 
 > Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
