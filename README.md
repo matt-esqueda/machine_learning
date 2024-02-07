@@ -9,7 +9,7 @@ To do:
 
 GitHub sometimes has trouble rendering html representations in jupyter notebooks. 
 
-Loading the URL in nbviewer.org will properly render everything
+Loading the URL in [nbviewer](nbviewer.org) will properly render everything.
 
 ### Citations
 
